@@ -5,18 +5,21 @@
 const count = document.querySelector(".count");
 const buttons = document.querySelector(".buttons");
 
-buttons.addEventListener("click", (e) => {
-    if(e.target.classList.contains("add")) {
-        count.innerHTML++;
-    }
-    if(e.target.classList.contains("subtract")) {
-        count.innerHTML--;
-    }
-    if(e.target.classList.contains("reset")) {
-        count.innerHTML = 0;
-    }
-})
+function TheCounter() {
+    buttons.addEventListener("click", (e) => {
+        if(e.target.classList.contains("add")) {
+            count.innerHTML++;
+        }
+        if(e.target.classList.contains("subtract")) {
+            count.innerHTML--;
+        }
+        if(e.target.classList.contains("reset")) {
+            count.innerHTML = 0;
+        }
+    })
+}
 
+TheCounter();
 /*add.addEventListener("click", () =>{
     count.innerHTML++;
 });
