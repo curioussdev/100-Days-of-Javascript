@@ -1,3 +1,5 @@
+// STUDY AVERYDAY
+
 // const add = document.querySelector(".add");
 // const resetCount = document.querySelector(".reset");
 // const sub = document.querySelector(".subtract");
@@ -29,3 +31,5 @@ sub.addEventListener("click", () =>{
 resetCount.addEventListener("click", () =>{
     count.innerHTML = 0;
 })*/
+
+
