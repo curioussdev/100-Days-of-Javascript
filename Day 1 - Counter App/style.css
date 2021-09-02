@@ -44,11 +44,11 @@
 
 button.subtract{
     background-color: tomato;
-    color: white;
+    color: #fff;
 }
 
 button.reset{
-    background-color: white;
+    background-color: #fff;
     color: rgb(46, 43, 43);
 }
 button.add{
