@@ -1,0 +1,1 @@
+const hex = documen.querySelector(".hex")
